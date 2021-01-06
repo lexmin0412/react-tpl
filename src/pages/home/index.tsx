@@ -1,5 +1,5 @@
 import './index.scss'
-import { useHistory, useLocation, useParams } from 'react-router-dom'
+import { useHistory, useLocation } from 'react-router-dom'
 
 const HomeIndex = (props) => {
   console.log('home index props', props)
