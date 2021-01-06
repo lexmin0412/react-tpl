@@ -1,9 +1,9 @@
 import React from "react";
 import {
   BrowserRouter,
-  Switch,
+  // Switch,
   Route,
-  Link
+  // Link
 } from 'react-router-dom';
 import HomeIndex from './pages/home/index'
 import UserIndex from './pages/user/index'

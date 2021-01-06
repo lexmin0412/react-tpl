@@ -5,7 +5,7 @@ const HomeIndex = (props) => {
   console.log('home index props', props)
   let history = useHistory();
   let location = useLocation();
-  let params = useParams(); 
+  // let params = useParams(); 
 
   function handleClick() {
     history.push("/user");
